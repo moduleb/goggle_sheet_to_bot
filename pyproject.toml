@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "goggle-sheet-to-bot"
+version = "0.1.0"
+description = ""
+authors = ["a <t3841@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "goggle_sheet_to_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+environs = "^9.5.0"
+aiogram = "^2.25.1"
+apscheduler = "^3.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
